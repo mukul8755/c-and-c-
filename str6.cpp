@@ -1,0 +1,18 @@
+//wap to accept the string in c++
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main()
+{
+    char a[200];
+    cout<<"enter your name without space:"<<endl;
+    gets(a);
+    cout<<"your name is = "<<a<<endl;
+    strrev(a);
+    cout<<"reverse print name"<<endl;
+    cout<<a<<endl;
+
+
+
+
+}
